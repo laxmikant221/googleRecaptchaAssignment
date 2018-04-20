@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recaptcha</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,400italic|Radley|Tangerine" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="recaptcha.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</head>
+<body>
+  <center>
+    <div class="container">
+      <h1>Recaptcha</h1>
+      <h3 id="question"></h3> <!-- To display the current question -->
+      <div class="text-center" id="displayImages"></div>
+    </div>
+    <div class="text-center">
+      <span id="msg"></span><br> <!-- To display verification status message -->
+      <button class="btn" id="New">&nbsp;New&nbsp;</button>
+      <button class="btn" id="Verify">Verify</button>
+    </div>
+  </center>
+  <script src="recaptcha.js"></script>
+</body>
+</html>
